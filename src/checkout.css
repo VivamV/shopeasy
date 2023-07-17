@@ -1,0 +1,33 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+  }
+  
+  .checkout__ad {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+  }
+  .empty_basket{
+
+    position: relative;
+    left: 450px;
+    background: #4b5cf0;
+    text-align: center;
+    border-radius: 2px;
+    width: 40%;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: #4b5cf0 ;
+    color: white;
+    padding-top: 3px;
+  }

@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+
+}
+.header__optionLineOne {
+    font-size: 15px;
+  }
+ .addP_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+  .addp_input{
+
+    padding: 5px;
+    width: max-content;
+    display: block;
+    font-size: medium;
+    border: none;
+   border-bottom: 0.1px solid black; 
+  }
+  .addp_label{
+   padding :4px;
+    display: block;
+  }
+  .addp_inputfile{
+    padding :4px;
+    display: block;
+    padding-left: 10px;
+  }
+  .btn{
+    margin-top: 4px;
+    cursor: pointer;
+    background-color: rgb(89, 89, 236);
+    color: white;
+    padding: 4px;
+    width: 60px;
+    border: none;
+    border-radius: 4px;
+  }

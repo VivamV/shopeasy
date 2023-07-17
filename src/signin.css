@@ -1,0 +1,42 @@
+.main{
+ 
+}
+.signin_main{
+    border-radius:5px;
+    border-color: rgb(79, 80, 80);
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(238, 247, 247);
+    margin-left: 500px;
+    margin-right: 500px;
+    height: 300px;
+    margin-top: 200px;
+    
+}
+.signinform{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.signbutton{
+    background-color:rgb(215, 228, 37) ;
+}
+.sign_input input{
+     padding: 5px;   
+     margin: 5px;
+    justify-content: space-between;
+border-style: none;
+height: 60%;
+width: 200px;
+
+
+}
+.signbutton{
+    width: 100%;
+}

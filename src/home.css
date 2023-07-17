@@ -1,0 +1,44 @@
+.homerow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homecointainer{
+    
+    width: 100%;
+    z-index: -1;
+    mask-image: linear-gradient (to bottom rgb(0,0, 0,0),rgb(0,0,0,0));
+    height: 500px;
+    margin-bottom: -150px;
+}
+.homerow1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.copyr{
+    height: 20px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: antiquewhite;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 90px;
+    background-color: rgba(184, 144, 144, 0.616);
+    padding-top: 20px;
+    width: 100%;
+}
+.contact1{
+color: rgb(57, 58, 59);
+}
